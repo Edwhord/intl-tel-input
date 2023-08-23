@@ -570,7 +570,7 @@
                         } else {
                             if (dialCode && isRegionlessNanp) {
                                 // has intl dial code, is regionless nanp, and no initialCountry, so default to US
-                                this._setFlag("us");
+                                this._setFlag("ke");
                             } else {
                                 // no dial code and no initialCountry, so default to first in list
                                 this.defaultCountry = this.preferredCountries.length ? this.preferredCountries[0].iso2 : this.countries[0].iso2;
